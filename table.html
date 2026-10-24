@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar" />
+    <meta name="keywords" content="html, htmL, htMl, htML, hTml, hTmL, hTMl, hTML, Html, HtmL, HtMl, HtML, HTml, HTmL, HTMl, HTML" />
+    <link rel="icon" href="./images/sk_logo.png">
+    <title>table</title>
+</head>
+<body>
+    <table width="100%" bgcolor="lightgreen">
+        <tr>
+            <td><img src="./images/sk_logo.png" height="50px" width="50px"> </td>
+            <td><h2 title="this is the name of project"><i>HTML PROJECT WEBSITE</i></h2> </td>
+            <td><a href="home.html"><h3> HOME </h3></a></td>
+            <td><a href="About.html"><h3> About Me</h3></a></td>
+            <td><a href="register.html"><h3> REGISTERATION </h3></a></td>
+            <td><a href="table.html"><h3> TABLE</h3></a></td>
+            <td><a href="image.html"><h3> IMAGE</h3></a></td>
+        </tr>
+    </table>
+     <!-- this table for only the e-commerce web details -->
+
+    <!-- The data from here -->
+    <h1>Theoretical Principles of HTML Tables</h1>
+
+    <ol>
+        <li><strong>Tabular Data Purpose:</strong> The primary semantic purpose of an HTML table is to present structured, multidimensional tabular data, meaning information that naturally fits into a grid of rows and columns.</li>
+        <li><strong>Structural Container:</strong> The <strong>&lt;table&gt;</strong> tag serves as the foundational wrapper block element, enclosing all structural components, rows, and data cells belonging to that specific data set.</li>
+        <li><strong>Row-Oriented Design:</strong> HTML tables are built horizontally from the top down using the <strong>&lt;tr&gt;</strong> (Table Row) tag, which groups individual data or header cells together into a single horizontal row.</li>
+        <li><strong>Semantic Header Definition:</strong> The <strong>&lt;th&gt;</strong> (Table Header) element defines a cell as a category or column label, automatically applying bold styles and center-alignment to assist screen readers and users in scanning data.</li>
+        <li><strong>Standard Data Cells:</strong> The <strong>&lt;td&gt;</strong> (Table Data) element represents a standard container cell that holds actual value inputs like text, numbers, images, or nested elements within the grid structure.</li>
+        <li><strong>Structural Sectioning:</strong> Complex tables can be segmented into semantic structural zones using the <strong>&lt;thead&gt;</strong> (header block), <strong>&lt;tbody&gt;</strong> (main content body), and <strong>&lt;tfoot&gt;</strong> (summary/total footer block) elements.</li>
+        <li><strong>Horizontal Grid Spanning:</strong> The <strong>colspan</strong> attribute can be added to a cell to stretch it horizontally across multiple column tracks, merging cells within the same row.</li>
+        <li><strong>Vertical Grid Spanning:</strong> The <strong>rowspan</strong> attribute enables a single cell to expand vertically downward across multiple sequential rows, which is useful for organizing shared data categories.</li>
+        <li><strong>Accessibility Mapping:</strong> The <strong>scope</strong> attribute (e.g., scope="col" or scope="row") is used inside header cells to explicitly tell screen readers exactly how headers relate to adjacent data cells.</li>
+        <li><strong>Layout Deprecation:</strong> Modern web standards dictate that tables must strictly be reserved for data visualization and never used to build general website layouts, a task now handled by CSS Flexbox and Grid systems.</li>
+    </ol>
+
+
+        <fieldset>
+            <legend><h2>E-Commerce Web Details : </h2></legend>
+            <h3>What is E-Commerce ?</h3>
+            <p>E-commerce <strong>(electronic commerce)</strong> is the buying and selling of goods, services, or data over the internet or other computer networks.</p>
+            <table width="80%" border="1" cellpadding="5px">
+                <caption> <h2>Some Famous E-Commerce Details</h2> </caption>
+                <tr>
+                    <th>Logo</th>
+                    <th>About</th>
+                    <th>Founder</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <th><img src="./images/amazon.jpeg" alt="amazon logo" width="150px"></th>
+                    <td>Amazon India is a massive multi-category digital marketplace that commands a leading share of online traffic in the country. Officially entering the Indian market in 2013, the platform caters heavily to local shoppers through its localized app and robust logistics engine. It lists an incredibly vast selection of products including consumer tech, domestic home supplies, health accessories, and books. The platform's immense success is anchored by its Prime membership program, which drives customer loyalty with guaranteed same-day or next-day deliveries, exclusive deals, and digital streaming options. Its Fulfilled by Amazon (FBA) network enables local small businesses to scale operations smoothly across India.</td>
+                    <td>Founder: Jeff Bezos</td>
+                    <td><a href="http://amazon.in"> Amazon </a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/myntra.jpeg" alt="Myntra logo" width="150px"></th>
+                    <td>Myntra is the undisputed leader in India's dedicated online fashion and lifestyle retail sector. Originally established as a personalized gifting site in 2007, it shifted focus entirely to apparel and was later acquired by the Flipkart Group. The digital portal provides millions of users with access to an extensive assortment of clothing, high-street footwear, and cosmetic essentials from thousands of national and international premium brands. Known for its sleek user interface, comprehensive style guides, and seamless digital return window, Myntra continues to set benchmarks in fashion merchandising, organizing massive viral sales events like the End of Reason Sale (EORS).</td>
+                    <td>Founders: Mukesh Bansal, Ashutosh Lawania, and Vineet Saxena</td>
+                    <td><a href="http://myntra.com">Myntra</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/flipkart.jpeg" alt="Flipkart" width="150px"></th>
+                    <td>Flipkart is India's premier homegrown e-commerce marketplace and one of the largest players in the country’s digital retail ecosystem. Founded in 2007 as a small online bookstore, it revolutionized Indian e-commerce by introducing consumer-centric innovations such as Cash-on-Delivery (CoD) and dedicated product warranties. Now a subsidiary of retail giant Walmart, the platform caters to hundreds of millions of users by offering a diverse product catalog ranging from smartphones and televisions to lifestyle apparel and furniture. It features advanced localized search options and the newly launched quick-commerce service, Flipkart Minutes, targeting immediate consumer needs across tier-1, tier-2, and tier-3 cities.</td>
+                    <td>Founders: Sachin Bansal and Binny Bansal</td>
+                    <td><a href="http://flipkart.com">Flipkart</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/ajio.jpeg" alt="Ajio logo" width="150px"></th>
+                    <td>AJIO is a prominent fashion-focused e-commerce destination owned and operated by India's largest retail conglomerate, Reliance Retail. Launched commercially in 2016, the digital platform serves trend-conscious millennial and Gen-Z demographics by curation of trendy lifestyle wardrobes, traditional ethnic garments, and premium accessories. The portal stands out by listing a huge inventory of international brands alongside its successful in-house private labels like Trends. Leveraging the massive physical retail infrastructure and logistics network of Reliance, AJIO provides quick delivery turnarounds, deep localized discounts, and an innovative creative portal named Ajiogram that spotlights rising direct-to-consumer fashion brands.</td>
+                    <td>Founder: Mukesh Ambani (via Reliance Retail)</td>
+                    <td><a href="http://ajio.com">Ajio</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/meesho.avif" alt="Meesho logo" width="150px"></th>
+                    <td>Meesho is an incredibly popular social commerce marketplace that has emerged as India's fastest-growing e-commerce platform. Launched with the specific intent of empowering small manufacturers and home-based entrepreneurs, the platform gained explosive mass popularity by charging a zero-commission seller model. It allows individuals to market and distribute unbranded clothing, home decor, and daily accessories directly through social media channels like WhatsApp and Instagram. By targeting price-sensitive consumers in Tier-2 and Tier-3 cities, Meesho has democratized digital commerce, racking up billions of downloads and capturing a massive share of the regional retail transaction volume.</td>
+                    <td>Founders: Vidit Aatrey and Sanjeev Barnwal</td>
+                    <td><a href="http://meesho.com">Meesho</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/ebay.png" alt="Ebay logo" width="150px"></th>
+                    <td>eBay is one of the oldest and most successful Consumer-to-Consumer (C2C) and Business-to-Consumer (B2C) e-commerce websites in the world. Established in 1995, it built its massive reputation by pioneering a unique online auction format that allows users to bid on rare collectibles, used electronics, and second-hand items. Over the decades, it evolved to accommodate traditional "Buy It Now" fixed-price listings, transforming into a diverse marketplace for individual entrepreneurs and established commercial brands alike. The platform maintains its enduring global popularity by providing robust buyer protection systems against scammers and offering a highly secure, cross-border trading platform where merchants can easily offload inventory.</td>
+                    <td>Founder: Pierre Omidyar</td>
+                    <td><a href="http://ebay.com">Ebay</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/nykaa.jpeg" alt="Nykaa logo" width="150px"></th>
+                    <td>Nykaa is the dominant digital-first player in India's multi-billion-dollar online beauty, personal care, and wellness market. Established in 2012 by investment banker turned entrepreneur Falguni Nayar, the brand effectively solved the widespread issue of counterfeit makeup products by moving away from traditional marketplace sourcing and adopting an inventory-led model. This approach guarantees 100% authentic cosmetics, professional skincare lines, hair care solutions, and fragrances sourced straight from international and domestic manufacturers. Nykaa has since grown into an omni-channel ecosystem, operating luxury brick-and-mortar storefronts across major Indian metropolitan areas alongside its specialized retail apps, Nykaa Man and Nykaa Fashion.</td>
+                    <td>Founder: Falguni Nayar</td>
+                    <td><a href="http://nykaa.com">Nykaa</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/indiamart.jpeg" alt="India Mart Logo" width="150px"></th>
+                    <td>IndiaMART is India's largest and most trusted Business-to-Business (B2B) digital marketplace, focusing on industrial procurement and commercial supplier discovery. Launched all the way back in 1996, it serves as an interactive online directory connecting small and medium enterprise (SME) manufacturers directly with bulk institutional buyers. The catalog ranges from heavy processing machinery and medical essentials to bulk fabrics and chemical raw components. By offering zero-commission free listings for manufacturers and highly transparent vendor verification badges, it commands over half of the country's domestic online B2B market share, facilitating millions of trade inquiries monthly.</td>
+                    <td>Founders: Dinesh Agarwal and Brijesh Agrawal</td>
+                    <td><a href="http://indiamart.com">IndiaMart</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/firstcry.png" alt="Firstcry logo" width="150px"></th>
+                    <td>FirstCry is India's undisputed largest pure-play e-commerce marketplace specializing in products for babies, young children, and expectant mothers. Founded in 2010, the company addresses the highly specific childcare market by maintaining an immense catalog containing over a million distinct items including diapers, kids' apparel, nursing gear, and developmental toys from trusted global brands. The company operates a very successful omni-channel distribution framework, blending its dominant internet platform with over a thousand franchise storefronts across various states. Following a highly anticipated domestic public listing (IPO) in August 2024, FirstCry continues to scale its presence as the absolute primary shopping hub for Indian parents.</td>
+                    <td>Founders: Supam Maheshwari and Amitava Saha </td>
+                    <td><a href="http://firstcry.com">Firstcry</a></td>
+                </tr>
+                <tr>
+                    <th><img src="./images/bigbasket.png" alt="Bigbasket logo" width="150px"></th>
+                    <td>BigBasket is India's absolute pioneer in large-scale online grocery retail and daily household essential fulfillment. Founded in 2011 and currently managed under the Tata Digital conglomerate ecosystem, it services consumers across more than a hundred Indian cities. The platform specializes in managing temperature-controlled logistics to deliver fresh farm produce, dairy goods, gourmet foods, and cleaning supplies directly to residences. To counter the heavy disruption caused by ultra-fast dark store models, BigBasket has integrated a specialized quick-commerce wing, guaranteeing the hyper-local delivery of groceries and lifestyle items within just ten to fifteen minutes.</td>
+                    <td>Founders: Hari Menon, VS Sudhakar, Vipul Parekh, Abhinay Choudhari, and VS Ramesh</td>
+                    <td><a href="http://bigbasket.com">BisBasket</a></td>
+                </tr>
+
+            </table>
+        </fieldset>
+   
+    <footer >
+        <br><br>
+        <hr width="95%" height="5px" />
+
+        <center>
+            <h3>Connect with..</h3>
+        </center>
+        <center>
+            <a href="https://www.facebook.com/sunilkumar.dinkar.526"><img src="./images/facebook.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="https://www.instagram.com/sunil__kumar__9027/"><img src="./images/instagram.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="https://www.linkedin.com/in/sunil-kumar-er/"><img src="./images/linkedin.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="https://github.com/Sunil9027/"><img src="./images/github.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="http://x.com/sktech_india"><img src="./images/twitter.png " alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+        </center>
+        
+        <center>
+            <h4>All rights reseves - &copy;2026</h4>
+        </center>
+    </footer>
+</body>
+</html>

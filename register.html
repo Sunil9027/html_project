@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar" />
+    <meta name="keywords" content="html, htmL, htMl, htML, hTml, hTmL, hTMl, hTML, Html, HtmL, HtMl, HtML, HTml, HTmL, HTMl, HTML" />
+    <link rel="icon" href="./images/sk_logo.png">
+    <title>table</title>
+</head>
+<body>
+    <table width="100%" bgcolor="lightgreen">
+        <tr>
+            <td><img src="./images/sk_logo.png" height="50px" width="50px"> </td>
+            <td><h2 title="this is the name of project"><i>HTML PROJECT WEBSITE</i></h2> </td>
+            <td><a href="home.html"><h3> HOME </h3></a></td>
+            <td><a href="About.html"><h3> About Me</h3></a></td>
+            <td><a href="register.html"><h3> REGISTERATION </h3></a></td>
+            <td><a href="table.html"><h3> TABLE</h3></a></td>
+            <td><a href="image.html"><h3> IMAGE</h3></a></td>
+        </tr>
+    </table>
+
+    <!-- Main working area -->
+      <h1>Theoretical Principles of a Registration Form</h1>
+
+    <ol>
+        <li><strong>Secure Gateway Definition:</strong> Theoretically, a registration form serves as a secure, structured gateway that bridges an anonymous client-side user with an organization's backend database.</li>
+        <li><strong>Formalizing Relationships:</strong> It establishes and formalizes a functional, legal, or transactional relationship between the registrant and the service provider.</li>
+        <li><strong>Data Standardization:</strong> The primary system function is to translate diverse human inputs into uniform, structured data types that a database schema can parse and store.</li>
+        <li><strong>Identity Mapping Key:</strong> It generates a unique foundational record in the system architecture, typically using a unique email address or User ID as a primary database key.</li>
+        <li><strong>Client-Side Validation Filter:</strong> It acts as an immediate filter using front-end scripts to check input patterns, reducing unnecessary network traffic and server load.</li>
+        <li><strong>Server-Side Integrity Check:</strong> Beyond the browser, it relies on server-side validation to re-verify data rules, preventing security bypasses like duplicate account creations.</li>
+        <li><strong>The POST Protocol Rule:</strong> Registration workflows theoretically dictate using the HTTP POST method over GET, encapsulating sensitive credentials securely within the request body instead of exposing them in the URL bar.</li>
+        <li><strong>Cryptographic Protection:</strong> In security theory, passwords collected via the form must never be stored raw; they must be cryptographically hashed using algorithms like bcrypt before database insertion.</li>
+        <li><strong>Cognitive Load Minimization:</strong> Interface theory suggests minimizing the number of form fields to lower friction and prevent user abandonment during the initial sign-up phase.</li>
+        <li><strong>Legal and Compliance Consent:</strong> Modern form design includes explicit legal checkpoints to comply with international data privacy frameworks like GDPR, binding the user to explicit terms of service.</li>
+    </ol>
+     
+    <fieldset>
+        <legend><h1><u>STUDENT REGISTRATION FORM</u></h1></legend>
+        <form action="">
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" id="" maxlength="30" minlength="2" pattern="{A-Z}{a-z}" required> (max 30 character and A-Z) <br><br>
+        
+        <label for="lname">Last Name : </label>
+        <input type="text" name="lname" id="" maxlength="30" minlength="2" pattern="{A-Z}{a-z}" required> (max 30 character and A-Z) <br><br>
+
+        <label for="dob"> Date of Birth : </label>
+        <input type="date" name="dob" id="" > <br><br>
+
+        
+        <label for="email">Email : </label>
+        <input type="email" name="email" id=""  required> <br><br>
+
+        <label for="phone">Mobile No. : </label>
+        <input type="tel" maxlength="12" required> (10 digit number) <br><br>
+
+        <label for="gen">GENDER : </label>
+        <input type="radio" name="gen" id="gen" value="male"> Male
+        <input type="radio" name="gen" id="gen" value="female"> Female 
+        <br><br>
+
+        <label for="add">ADDRESS : </label>
+        <textarea name="add" id="" style="height: 100px; width: 300px;">address write here...</textarea> <br><br>
+
+        <label for="city">CITY : </label>
+        <input type="text" name="city" pattern="{a-z}{A-Z}" maxlength="30"> (max 30 character and A-Z) <br><br>
+
+        <label for="pin">PINCODE : </label>
+        <input type="number" maxlength="8" name="pin" id="" required> (6 digit number) <br><br>
+
+
+        <label for="state">STATE : </label>
+        <input type="text" name="state" id="" maxlength="30" required>(max 30 character and A-Z) <br><br>
+
+        <label for="country">COUNTRY : </label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Austrelia">Austrelia</option>
+        </select> <br><br>
+
+        <label for="hob">Hobbies :  &nbsp;</label>
+        Drawing <input type="checkbox" name="hob" id="" value="drawing">   &nbsp; &nbsp;
+        Singing <input type="checkbox" name="hob" id="" value="singing">  &nbsp; &nbsp;
+        Dancing <input type="checkbox" name="hob" id="" value="dancing">   &nbsp; &nbsp;
+        Skating <input type="checkbox" name="hob" id="" value="skating">  &nbsp; &nbsp;
+        Others <input type="checkbox" name="hob" id="" value="others">  
+        <input type="text" name="hob" id=""> <br><br>
+
+        <span>QUALIFIACTION : </span>
+        <table>
+            <tr>
+                <th>Sr. No. : </th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <th>1.</th>
+                <th>Class X : </th>
+                <td><input type="text" name="x" id=""></td>
+                <td><input type="text" name="x" id=""></td>
+                <td><input type="text" name="x" id=""></td>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th>Class XII : </th>
+                <td><input type="text" name="xii" id=""></td>
+                <td><input type="text" name="xii" id=""></td>
+                <td><input type="text" name="xii" id=""></td>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>Gratuation : </th>
+                <td><input type="text" name="grad" id=""></td>
+                <td><input type="text" name="grad" id=""></td>
+                <td><input type="text" name="grad" id=""></td>
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>Masters : </th>
+                <td><input type="text" name="master" id=""></td>
+                <td><input type="text" name="master" id=""></td>
+                <td><input type="text" name="master" id=""></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <th>(10 character max)</th>
+                <th>(upto 2 decimal)</th>
+                <td></td>
+            </tr>
+        </table> <br><br>
+
+        <label for="course">COURSES APPLIED FOR : &nbsp;</label>
+        <input type="radio" name="course" id="" value="bca"> BCA &nbsp;
+        <input type="radio" name="course" id="" value="bcom"> B.Com &nbsp;
+        <input type="radio" name="course" id="" value="bsc"> B.Sc  &nbsp;
+        <input type="radio" name="course" id="" value="ba"> B.A  <br><br>
+
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+
+
+
+    </form>
+    </fieldset>
+    
+   
+    <footer >
+        <br><br>
+        <hr width="95%" height="5px" />
+
+        <center>
+            <h3>Connect with..</h3>
+        </center>
+        <center>
+            <a href="https://www.facebook.com/sunilkumar.dinkar.526"><img src="./images/facebook.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="https://www.instagram.com/sunil__kumar__9027/"><img src="./images/instagram.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="https://www.linkedin.com/in/sunil-kumar-er/"><img src="./images/linkedin.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="https://github.com/Sunil9027/"><img src="./images/github.png" alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+            <a href="http://x.com/sktech_india"><img src="./images/twitter.png " alt=facebook logo" width="70px"></a> &emsp;  &emsp;
+        </center>
+        
+        <center>
+            <h4>All rights reseves - &copy;2026</h4>
+        </center>
+    </footer>
+</body>
+</html>
